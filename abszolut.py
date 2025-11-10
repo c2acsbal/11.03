@@ -19,3 +19,5 @@ class TesztAbszolut(unittest.TestCase):
         veg = abs_max(-5,1)
         self.assertEqual(veg, 5)
 print(f"Retrun: {abs_max(szam1, szam2)}")
+
+unittest.main()

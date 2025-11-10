@@ -1,7 +1,7 @@
 import unittest
 
-szam1 = int(input("Input: "))
-szam2 = int(input())
+# szam1 = int(input("Input: "))
+# szam2 = int(input())
 
 def abs_max(szam1: int, szam2: int):
     if szam1 < 0:
@@ -18,6 +18,6 @@ class TesztAbszolut(unittest.TestCase):
     def test_elso_eset(self):
         veg = abs_max(-5,1)
         self.assertEqual(veg, 5)
-print(f"Retrun: {abs_max(szam1, szam2)}")
+# print(f"Retrun: {abs_max(szam1, szam2)}")
 
 unittest.main()
